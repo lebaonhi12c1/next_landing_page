@@ -1,6 +1,12 @@
 .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: #000;
     height: var(--navbar_height);
+    overflow: hidden;
+    z-index: 100;
    .sub{
     height: 100%;
     .container{
@@ -8,6 +14,14 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        .left{
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 200;
+            &:hover{
+                color: var(--color_primary);
+            }
+        }
         .right{
             display: flex;
             align-items: center;

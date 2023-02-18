@@ -2,9 +2,16 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import '@/styles/home.module.scss'
 import Defaulayout from './../components/layout/Defaulayout';
+import style from '@/styles/home.module.scss'
+import classNames from 'classnames';
+import Image from 'next/image';
+import Circle from '@/components/Circle';
+import { data } from '@/data';
+import Services from '@/components/Services';
+import Testimonials from '@/components/Testimonials';
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home({services}) {
   return (
     <>
       <Head>
@@ -14,9 +21,46 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        homepage
+        <div className="grid wide">
+          <div className="row">
+            <div className="column mobile-12 tablet-12 pc-6">
+              <div className={style.left__intro}>
+                <Circle backgroundColor='green' left='-60%' bottom='40%'/>
+                <h1 className={style.intro__heading}>
+                  <span className={style.heading__primary}>av0cad0 </span>
+                  <span>digital product agency</span>
+                </h1>
+                <p className={style.intro__sub}>
+                  Create live segments and target the right people for messages based on their behaviors
+                </p>
+                <div className={classNames('btn_primary',style.intro__btn)}>Discover</div>
+              </div>
+            </div>
+            <div className="column mobile-12 tablet-12 pc-6">
+              <div className={style.right__intro}>
+                <img
+                  src='https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/142243334/original/b3065439f8801ca7326731c28dd8bf30569617b5/draw-your-portrait-in-a-disney-style-character.jpg'
+                  width='100%'
+                  height='100%'
+                />
+                <div className={style.right__heading}>
+                  av0cad0
+                </div>
+                <Circle backgroundColor='green' left='50%' top='0' zIndex='10'/>
+              </div>
+            </div>
+          </div>
+          <Services services={services}/>
+          <Testimonials/>
+        </div>
       </main>
     </>
   )
 }
 Home.getLayout = Defaulayout
+export const getStaticProps = async ()=>{
+  const services = data
+  return {
+    props: {services}
+  }
+}

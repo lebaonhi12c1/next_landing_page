@@ -1,4 +1,5 @@
 import classNames from 'classnames';
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import style from '../styles/navbar.module.scss'
@@ -7,9 +8,9 @@ function Navbar(props) {
         <div className={style.navbar}>
             <div className={classNames('grid','wide',style.sub)}>
                 <div className={style.container}>
-                    <div className={style.left}>
-                        <img src="" alt="" />
-                    </div>
+                    <Link href={'/'} className={style.left}>
+                        av0cado
+                    </Link>
                     <ul className={style.right}>
                         <li className={style.nav_item}>
                             <Link href={'/'} className={style.nav_link}>

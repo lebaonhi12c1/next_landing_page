@@ -6,7 +6,9 @@ function Defaulayout({children}) {
     return (
         <div>
             <Navbar/>
-            {children}
+            <div className='margin_center'>
+                {children}
+            </div>
             <Footer/>
         </div>
     );
