@@ -13,7 +13,7 @@ function Testimonials(props) {
             <div className='row'>
                 {user_list.map(item=>{
                     return (
-                        <div className="column mobile-12 tablet-12 pc-4 margin" key={item.id}>
+                        <div className="column mobile-12 tablet-12 pc-4 margin" key={item.id} data-aos='fade-up'>
                             <div className={style.user}>
                                 <div className={style.logo}>
                                     <img src={item.logo} alt="" />

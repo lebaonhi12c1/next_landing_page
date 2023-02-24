@@ -1,0 +1,34 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    .contact_box{
+        .heading{
+            font-size: 40px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        gap: 32px;
+        padding: 16px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px,rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        input{
+            padding: 8px;
+            border-color: #eee;
+            border-radius: 4px;
+            &:focus-within{
+                border-color: var(--color_primary);
+            }
+        }
+        textarea{
+            padding: 8px;
+            height: 100px;
+            &:focus-visible{
+                outline-color: var(--color_primary);
+            }
+
+        }
+    }
+}

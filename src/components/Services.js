@@ -15,7 +15,7 @@ function Services({services}) {
                 {services.map(item=>{
                     return (
                         <div key={item.id} className='column mobile-12 tablet-12 pc-6 margin'>
-                            <Link href={`/services/${item.id}`} className={style.services_box}>
+                            <Link href={`/product/${item.name}`} className={style.services_box} data-aos='fade-up'>
                                 <div className={style.title}>
                                     {item.title}
                                 </div>
