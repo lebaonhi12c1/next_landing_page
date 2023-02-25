@@ -4,11 +4,10 @@ import '@/styles/home.module.scss'
 import Defaulayout from './../components/layout/Defaulayout';
 import style from '@/styles/home.module.scss'
 import classNames from 'classnames';
-import Image from 'next/image';
 import Circle from '@/components/Circle';
 import { data } from '@/data';
 import Services from '@/components/Services';
-import Testimonials from '@/components/Testimonials';
+import Testimonials from '@/components/Testimonials'; 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home({services}) {

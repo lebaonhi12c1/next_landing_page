@@ -9,7 +9,7 @@ function Services({services}) {
                 What we can do ?
             </div>
             <div className={style.sub_heading}>
-                Service's we can help you
+                Service&apos;s we can help you
             </div>
             <div className={classNames(style.services,'row')}>
                 {services.map(item=>{

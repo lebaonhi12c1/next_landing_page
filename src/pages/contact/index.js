@@ -37,9 +37,9 @@ function Contact(props) {
                     <div className={style.heading}>
                         get in touch
                     </div>
-                    {input_datas.map(item=>{
+                    {input_datas.map((item,index)=>{
                         return (
-                            <item.tag type={item.type} placeholder={item.placeholder} spellCheck ={false}></item.tag>
+                            <item.tag type={item.type} placeholder={item.placeholder} spellCheck ={false} key={index}></item.tag>
                         )
                     })}
                     <div className="btn_primary">
