@@ -7,12 +7,12 @@ const data = [
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, aut provident distinctio neque sapiente ipsam enim ratione veritatis molestias repellendus? Quis consequatur excepturi quisquam placeat voluptate fugit eum aperiam ipsam.',
         image: 'https://cdn5.vectorstock.com/i/1000x1000/39/29/painting-art-school-cartoon-graphic-design-vector-21513929.jpg',
         images: [
-            'https://media.istockphoto.com/id/1143678440/photo/personal-growth-concept.jpg?s=612x612&w=0&k=20&c=93yxlOtOZWPUPRFardh7fAPaY-u0xZf9q0jjEaO0-To=',
-            'https://thumbs.dreamstime.com/b/professional-development-programmer-cooperating-meeting-brai-professional-development-programmer-cooperating-meeting-132332458.jpg',
-            'https://thumbs.dreamstime.com/b/businesswoman-doing-head-down-desk-high-angle-view-54979737.jpg',
-            'https://media.istockphoto.com/id/923079848/photo/online-shopping.jpg?b=1&s=612x612&w=0&k=20&c=AGCCQmFNfirZcsK0_PhPqrhydUs_ISrK6VvTp-ahIb8=',
-            'https://images.pexels.com/photos/3975589/pexels-photo-3975589.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-            'https://images.unsplash.com/photo-1577900258307-26411733b430?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80'
+            'https://www.thespruce.com/thmb/gq45S3cRb66SXlSJuz4suej7xEw=/4200x2800/filters:fill(auto,1)/what-is-minimalist-design-4796583-03-37f2ac0fcfd74c0c905ea31398c20494.jpg',
+            'https://media.architecturaldigest.com/photos/5852f886001c874267ed3d80/master/pass/fuigo-interior-designer-workspace-03.jpg',
+            'http://www.interiorsbysteveng.com/wp-content/uploads/2016/09/4201-living_new-2.jpg',
+            'https://www.fashiondivadesign.com/wp-content/uploads/2018/12/pexels-photo-1571460-1.jpeg',
+            'https://cdnassets.hw.net/96/75/c46333614f6dac732bdbbf36796a/design-office-alterstudio-07-hero.jpg',
+            'https://estestinc.com/wp-content/uploads/2019/03/clubhouses.jpg'
         ]
     },
     {
@@ -21,13 +21,13 @@ const data = [
         title: 'Development',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, aut provident distinctio neque sapiente ipsam enim ratione veritatis molestias repellendus? Quis consequatur excepturi quisquam placeat voluptate fugit eum aperiam ipsam.',
         image: 'https://cdn3.vectorstock.com/i/1000x1000/26/22/successful-development-and-growth-project-cartoon-vector-25822622.jpg',
-         images: [
-            'https://www.thespruce.com/thmb/gq45S3cRb66SXlSJuz4suej7xEw=/4200x2800/filters:fill(auto,1)/what-is-minimalist-design-4796583-03-37f2ac0fcfd74c0c905ea31398c20494.jpg',
-            'https://media.architecturaldigest.com/photos/5852f886001c874267ed3d80/master/pass/fuigo-interior-designer-workspace-03.jpg',
-            'http://www.interiorsbysteveng.com/wp-content/uploads/2016/09/4201-living_new-2.jpg',
-            'https://www.fashiondivadesign.com/wp-content/uploads/2018/12/pexels-photo-1571460-1.jpeg',
-            'https://cdnassets.hw.net/96/75/c46333614f6dac732bdbbf36796a/design-office-alterstudio-07-hero.jpg',
-            'https://estestinc.com/wp-content/uploads/2019/03/clubhouses.jpg'
+        images: [
+            'https://media.istockphoto.com/id/1143678440/photo/personal-growth-concept.jpg?s=612x612&w=0&k=20&c=93yxlOtOZWPUPRFardh7fAPaY-u0xZf9q0jjEaO0-To=',
+            'https://thumbs.dreamstime.com/b/professional-development-programmer-cooperating-meeting-brai-professional-development-programmer-cooperating-meeting-132332458.jpg',
+            'https://thumbs.dreamstime.com/b/businesswoman-doing-head-down-desk-high-angle-view-54979737.jpg',
+            'https://media.istockphoto.com/id/923079848/photo/online-shopping.jpg?b=1&s=612x612&w=0&k=20&c=AGCCQmFNfirZcsK0_PhPqrhydUs_ISrK6VvTp-ahIb8=',
+            'https://images.pexels.com/photos/3975589/pexels-photo-3975589.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+            'https://images.unsplash.com/photo-1577900258307-26411733b430?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80'
         ]
     },
     {
