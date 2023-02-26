@@ -53,3 +53,13 @@
         }
     }
 }
+@media (max-width: 739px) {
+    .container{
+        .services_box{
+            .img_box{
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+}
